@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/calculos_anteriores"
+        android:id="@+id/itemCalAnterior"
+        />
+    <item
+        android:title="@string/objetivo"
+        android:id="@+id/itemObjetivo"
+        />
+    <item
+        android:title="@string/informacoes"
+        android:id="@+id/itemInformacoes"
+        />
+
+
+</menu>
