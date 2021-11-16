@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="calculos_anteriores">Calculos Anteriores</string>
+    <string name="objetivo">Nosso Objetivo</string>
+    <string name="informacoes">Mais Informações</string>
+</resources>
