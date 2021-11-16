@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plano_de_fundo"
+    tools:context=".Calculo2">
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="122dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264">
+
+        <RadioButton
+            android:id="@+id/rbtnSim1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Sim" />
+
+        <RadioButton
+            android:id="@+id/rbtnNao1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Não" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnVoltar2"
+        android:layout_width="131dp"
+        android:layout_height="46dp"
+        android:text="Voltar"
+        app:backgroundTint="#04ac58"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/btnProx2"
+        android:layout_width="131dp"
+        android:layout_height="46dp"
+        android:text="Proximo"
+        app:backgroundTint="#692376"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <TextView
+        android:id="@+id/cursoDagua2"
+        android:layout_width="346dp"
+        android:layout_height="49dp"
+        android:text="Possui cursos d'agua na sua propriedade?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#050000"
+        android:textSize="18sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
